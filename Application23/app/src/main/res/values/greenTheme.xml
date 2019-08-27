@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="themeBgColor">#009900</color>
+
+    <style name="steviesTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/themeBgColor</item>
+    </style>
+</resources>

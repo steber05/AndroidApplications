@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Application11</string>
+    <string name="title_activity_bacon">Bacon</string>
+    <string name="applesText">Apples</string>
+    <string name="baconButton">Go to Bacon</string>
+    <string name="baconText">Bacon</string>
+    <string name="applesButton">Go to Apples</string>
+
+</resources>

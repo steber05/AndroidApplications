@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.application11">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name="com.example.application11.SteviesService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity
+            android:name="com.example.application11.Bacon"
+            android:label="@string/title_activity_bacon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.application11.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.example.application11.SteviesIntentService" />
+    </application>
+
+</manifest>
